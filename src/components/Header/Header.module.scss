@@ -1,0 +1,164 @@
+// font bruno
+@import url('http://fonts.cdnfonts.com/css/bruno-ace-sc');
+// Font Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 320px;
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+
+    padding: 0px 24px;
+    box-sizing: border-box;
+
+    height: 142px;
+
+    &__burger {
+        display: none;
+
+        background-color: transparent;
+        border: unset;
+    }
+
+    &__logo {
+        display: flex;
+        column-gap: 22px;
+    }
+
+    &__title {
+        margin: 0px;
+
+        max-width: 175px;
+        width: 100%;
+
+        font-family: 'Bruno Ace SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #000000;
+
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    &__menu {
+        width: 100%;
+        max-width: 460px;
+
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0px 16px;
+    }
+
+    &__link {
+        text-decoration: none;
+        margin: 0px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #000000;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    &__person {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3px;
+    }
+
+    &__cost {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+    }
+
+    &__name {
+        margin: 0px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #000000;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: row;
+
+        &__text {
+            margin: 0px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+
+            color: #FFFFFF;
+            text-align: center;
+
+            background-color: #2090E8;
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+
+            z-index: 2;
+        }
+
+        &__img{
+            position: relative;
+            left: 10px;
+            top: 3px;
+
+            z-index: 1;
+        }
+    }
+
+
+    &__text {
+        margin: 0px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+    }
+
+    &__price {
+        margin: 0px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #2090E8;
+    }
+}
+
+@import './HeaderMedia.module.scss';
