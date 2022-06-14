@@ -27,7 +27,11 @@ const Header = () => {
                 <form className={s.header__form} action="#">
                     <div className={s.header__search}>
                         <input className={s.header__select__text} type="text" placeholder='Название товара' />
-                        <button className={s.header__select}>Все категории</button>
+                        {/* <button className={s.header__select}>Все категории</button> */}
+                        <select className={s.header__select}>
+                            <option selected>Все категории</option>
+                            <option>Что-то ещё</option>
+                        </select>
                     </div>
                     <button className={s.header__submit}></button>
                 </form>
