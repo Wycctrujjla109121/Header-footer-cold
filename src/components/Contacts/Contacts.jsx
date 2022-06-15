@@ -4,7 +4,7 @@ import React from 'react';
 import Header from './Header/Header';
 import Info from './Info/Info';
 import Adress from './Adress/Adress';
-import Footer from './Footer/Footer';
+import Footer2 from '../Footer2/Footer';
 // Style
 import s from './Contacts.module.scss'
 
@@ -14,7 +14,7 @@ const Contacts = () => {
             <Header />
             <Info />
             <Adress />
-            <Footer/>
+            <Footer2 />
         </div>
     );
 };

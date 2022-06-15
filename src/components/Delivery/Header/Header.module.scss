@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 320px;
+    width: 100%;
+    max-width: 1920px;
+
+    height: 301px;
+
+    margin: 0 auto;
+
+    background-image: url(../../../assets/delivery/header.svg);
+    background-repeat: no-repeat;
+    background-size: initial;
+
+    &__title {
+        width: 100%;
+        max-width: 1110px;
+
+        padding: 0px 24px;
+        box-sizing: border-box;
+        margin: 0px;
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 83px;
+
+        color: #000000;
+    }
+}
+
+@import './HeaderMedia.module.scss';

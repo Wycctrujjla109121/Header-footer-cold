@@ -1,10 +1,10 @@
 import React from 'react';
 
 // IMG
-import staff from '../../../assets/contacts/Staff.svg'
-import montage from '../../../assets/contacts/Montage.svg'
-import mobility from '../../../assets/contacts/Mobility.svg'
-import cart from '../../../assets/contacts/Cart.svg'
+import staff from '../../assets/footer2/Staff.svg'
+import montage from '../../assets/footer2/Montage.svg'
+import mobility from '../../assets/footer2/Mobility.svg'
+import cart from '../../assets/footer2/Cart.svg'
 // Style
 import s from './Footer.module.scss'
 

@@ -5,6 +5,7 @@ import logo from '../../assets/footer/logo.svg'
 import facebook from '../../assets/footer/Facebook.svg'
 import instagram from '../../assets/footer/Instagram.svg'
 import twitter from '../../assets/footer/Twitter.svg'
+
 //  STYLE
 import s from './Footer.module.scss'
 
