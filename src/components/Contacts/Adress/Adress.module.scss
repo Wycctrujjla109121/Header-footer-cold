@@ -1,0 +1,79 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.adress {
+    display: flex;
+    justify-content: space-between;
+
+    min-width: 320px;
+    width: 100%;
+    max-width: 1068px;
+
+    margin: 0 auto;
+    margin-top: 221px;
+
+    padding: 0px 24px;
+
+    box-sizing: border-box;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        column-gap: 21px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    &__title {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+
+        color: #000000;
+    }
+
+    &__text {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+
+        color: #000000;
+    }
+
+    &__social {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    &__link {
+        // Возможно будет меняться изображение
+    }
+
+    &__map {
+        width: 100%;
+        max-width: 570px;
+        height: 342px;
+
+        background-color: aqua;
+    }
+}
+
+@import './AdressMedia.module.scss';
