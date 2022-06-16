@@ -1,0 +1,45 @@
+@media screen and (max-width: 980px) {
+    .table {
+
+        &__installation {
+
+            &__text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 69px;
+            }
+        }
+
+        &__price {
+
+            &__text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 69px;
+            }
+        }
+
+        &__discount {
+
+            &__text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 69px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .table {
+        display: none;
+    }
+
+    .table700 {
+        display: flex;
+    }
+}

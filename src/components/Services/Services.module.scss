@@ -1,0 +1,87 @@
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 320px;
+
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        padding: 0px 24px;
+        box-sizing: border-box;
+
+        margin-top: 85px;
+
+        width: 100%;
+        max-width: 1110px;
+    }
+
+    &__title {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+
+        color: #000000;
+    }
+
+    &__info {
+        margin-top: 120px;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+
+        width: 100%;
+        max-width: 1110px;
+
+        box-sizing: border-box;
+
+        padding: 0px 24px;
+    }
+
+    &__title {
+        margin: 0px;
+
+        padding-left: 20px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+
+        text-align: justify;
+
+        color: #000000;
+    }
+
+    &__text {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+
+        text-align: justify;
+
+        color: #000000;
+
+        &__span{
+            padding-left: 20px
+        }
+    }
+}
+
+@import './ServicesMedia.module.scss';

@@ -1,0 +1,251 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.table {
+    display: flex;
+    margin-top: 60px;
+
+    min-width: 320px;
+    width: 100%;
+    max-width: 1110px;
+
+    &__installation {
+        width: 100%;
+        max-width: 750px;
+
+        border-radius: 16px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: 1px solid #000000;
+
+        border-right: 0px;
+        border-left: 0px;
+
+        overflow: hidden;
+
+        &__text {
+            margin: 0px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+
+            color: #000000;
+
+            padding: 11px 0px;
+            padding-left: 50px;
+            padding-right: 25px;
+
+            border: 1px solid #000000;
+            border-right: 0px;
+
+            margin-bottom: 19px;
+
+            &:last-child {
+                margin: 0px;
+            }
+        }
+    }
+
+    &__price {
+        width: 100%;
+        max-width: 181px;
+
+        border-radius: 16px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: 1px solid #000000;
+
+        overflow: hidden;
+
+        &__text {
+            margin: 0px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+
+            color: #000000;
+            text-align: center;
+
+            padding: 11px 0px;
+
+            border: 1px solid #000000;
+            border-left: 0px;
+            border-right: 0px;
+
+            margin-bottom: 19px;
+
+            &:last-child {
+                margin: 0px;
+            }
+        }
+    }
+
+    &__discount {
+        width: 100%;
+        max-width: 181px;
+
+        border-radius: 16px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: 1px solid #000000;
+
+        border-left: 0px;
+        border-right: 0px;
+
+        overflow: hidden;
+
+        &__text {
+            margin: 0px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+
+            color: #000000;
+            text-align: center;
+
+            padding: 11px 0px;
+
+            border: 1px solid #000000;
+            border-left: 0px;
+
+            margin-bottom: 19px;
+
+            &:last-child {
+                margin: 0px;
+            }
+        }
+    }
+
+
+    &__installation__title {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+
+        color: #000000;
+        text-align: center;
+
+        background-color: #62BAFF;
+
+        padding: 15px 0px;
+
+        border-left: 1px solid #000000;
+        border-top-left-radius: 16px;
+    }
+
+    &__price__title {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+
+        color: #000000;
+        text-align: center;
+
+        background-color: #62BAFF;
+
+        padding: 15px 0px;
+    }
+
+    &__discount__title {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+
+        color: #000000;
+        text-align: center;
+
+        background-color: #62BAFF;
+
+        padding: 15px 0px;
+
+        border-right: 1px solid #000000;
+        border-top-right-radius: 16px;
+    }
+}
+
+.table700 {
+    margin-top: 38px;
+
+    display: none;
+    flex-direction: column;
+    row-gap: 14px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 10px;
+
+        border: 1px solid #000000;
+
+        padding: 13px 8px;
+    }
+
+    &__text {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+
+        color: #000000;
+    }
+
+    &__price {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    &__priceOld {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+
+        text-decoration-line: line-through;
+
+        color: #000000;
+    }
+
+    &__priceNew {
+        margin: 0px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+
+        color: #2090E8;
+
+    }
+}
+
+@import './TableMedia.module.scss';

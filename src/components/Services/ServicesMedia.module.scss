@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px){
+    .services{
+
+        &__info{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .services{
+
+        &__list{
+            margin-top: 73px;
+
+            padding: 0px 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    .services{
+
+        &__list{
+            margin-top: 60px;
+
+            padding: 0px 15px;
+        }
+
+        &__title{
+            font-size: 16px;
+        }
+    }
+}
